@@ -6,6 +6,9 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     public float range = 100f;
+
+    public ParticleSystem muzzleFlash;
+
     private Camera fpsCamera;
     private float nextTimeToFire;
     // Start is called before the first frame update
@@ -27,6 +30,11 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        if(muzzleFlash != null)
+        {
+            muzzleFlash.Play();
+        }
+        
         RaycastHit hit;
         if(Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out hit, range))
         {
