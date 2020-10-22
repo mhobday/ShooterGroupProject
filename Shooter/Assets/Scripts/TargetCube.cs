@@ -39,6 +39,6 @@ public class TargetCube : Target
             Rotate(rotationAmount);
         }
 
-        // effectScript.Play(hit, hitsound, hitEffect, effectDuration);
+        effectScript.Play(hit, hitSound, hitEffect, effectDuration);
     }
 }
