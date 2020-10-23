@@ -422,6 +422,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1657543028098649486, guid: be1337b921fc31142842bb1f659c6998, type: 3}
+      propertyPath: effectsManager
+      value: 
+      objectReference: {fileID: 1833615726}
+    - target: {fileID: 1657543028103283592, guid: be1337b921fc31142842bb1f659c6998, type: 3}
+      propertyPath: effectsManager
+      value: 
+      objectReference: {fileID: 1833615726}
     - target: {fileID: 1657543028896918588, guid: be1337b921fc31142842bb1f659c6998, type: 3}
       propertyPath: m_Name
       value: TargetStack (1)
@@ -470,6 +478,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1657543029224554018, guid: be1337b921fc31142842bb1f659c6998, type: 3}
+      propertyPath: effectsManager
+      value: 
+      objectReference: {fileID: 1833615726}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be1337b921fc31142842bb1f659c6998, type: 3}
 --- !u!4 &1132806566 stripped
